@@ -1,4 +1,4 @@
-# Robotframework - A Soltuion for Web UI automation
+# Robotframework - A Solution for Web UI automation
 ## - RobotFramework + Python + Selenium + BDD -
 ## Features
 
