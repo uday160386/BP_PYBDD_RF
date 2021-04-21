@@ -59,7 +59,7 @@ Note:The above paths are for reference and can be saved at your preferred path
 ```
 
 ## Sample Report
-    ![picture](design/htmlReport.png)
+![picture](design/htmlReport.png)
 
 ## work is still in progress .....
 
