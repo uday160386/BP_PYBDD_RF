@@ -12,8 +12,8 @@ Open Browser To Volt React Page
     ${chrome_options}=  Evaluate  sys.modules['selenium.webdriver'].ChromeOptions()  sys, selenium.webdriver
     Call Method    ${chrome_options}    add_argument    --no-sandbox
     Call Method    ${chrome_options}    add_argument    --headless
-#    Open Browser   ${LOGIN URL}   ${BROWSER}   options=${chrome_options}      executable_path=${CHROMEDRIVER_PATH}
-    Open Browser   ${LOGIN URL}   ${BROWSER}
+    Open Browser   ${LOGIN URL}   ${BROWSER}   options=${chrome_options}      executable_path=${CHROMEDRIVER_PATH}
+#    Open Browser   ${LOGIN URL}   ${BROWSER}
     Maximize Browser Window
     Set Selenium Speed    ${DELAY}
 
